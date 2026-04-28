@@ -1,0 +1,70 @@
+---
+title: "Migrating from Power BI Premium to Microsoft Fabric"
+date: "2025-02-14"
+categories: [Fabric, Migration, Power BI]
+description: "A practical walkthrough of migrating a production Power BI environment to Microsoft Fabric — what worked, what broke, and what I'd do differently."
+format:
+  html:
+    toc: true
+---
+
+At Umojo, I led the migration of our entire Power BI Premium infrastructure to Microsoft Fabric over Q4 2024 into early 2025. Here's what I learned.
+
+## Why migrate?
+
+Power BI Premium per-capacity was getting expensive relative to what we were actually using. Microsoft Fabric promised a more unified, consumption-based model and, more importantly, a path toward lakehouse architecture that would simplify our entire data stack.
+
+The pitch: one platform for data engineering, warehousing, BI, and ML. We were already deep in the Microsoft ecosystem, so this was a natural evolution.
+
+## What the migration actually involved
+
+### 1. Capacity and workspace setup
+
+The first thing to understand is that Fabric workspaces are *not* the same as Power BI workspaces, even though they look similar. You'll need to create a new Fabric-enabled workspace and migrate items into it.
+
+```
+Old: Power BI Premium Workspace
+     └── Datasets (PBIX)
+     └── Reports
+     └── Dataflows (Gen1)
+
+New: Fabric Workspace
+     └── Lakehouses
+     └── Semantic Models (upgraded datasets)
+     └── Reports
+     └── Dataflows Gen2
+```
+
+### 2. Datasets → Semantic Models
+
+Microsoft rebranded datasets to "Semantic Models" in Fabric, but the bigger change is *how* they're managed. Direct Lake mode became available, allowing semantic models to read directly from Delta tables in a Lakehouse with near-zero import latency.
+
+We had 23 datasets. About 18 migrated cleanly. The remaining 5 had complex composite models or custom connectors that needed manual rework.
+
+### 3. Dataflows Gen1 → Gen2
+
+This was the most painful part. Gen1 Dataflows don't automatically upgrade — you have to rebuild them in Gen2 from scratch, or export and re-import the M query code.
+
+**Tip:** Export your Gen1 queries to `.json` and use them as a reference while rebuilding in Gen2. Don't try to copy-paste M code blindly — some functions behave differently.
+
+### 4. Gateway migration
+
+On-premises data gateways largely carried over, but we had to re-register connections in the new Fabric workspace. Budget time for this — especially if you have many datasources or shared gateway clusters.
+
+## Performance observations
+
+After migration, report load times improved noticeably for our Direct Lake models — the elimination of import refresh cycles alone was worth it. However, some models that previously cached well saw slightly *higher* query times initially, as Direct Lake queries hit the lakehouse storage more frequently.
+
+The fix was proper Delta table optimization: running `OPTIMIZE` and `VACUUM` on hot tables brought query performance back in line.
+
+## What I'd do differently
+
+- **Don't migrate everything at once.** We tried to do too much in one sprint. A phased migration by priority gave us much better outcomes in the second half.
+- **Test Direct Lake thoroughly before committing.** Some of our DAX measures behaved unexpectedly in Direct Lake mode vs. Import mode. Document your known patterns before switching.
+- **Communicate early with stakeholders.** Report refresh schedules changed during migration. A few teams were surprised. Avoid this.
+
+## Final thoughts
+
+Overall, the migration was worth it. We're on a more modern platform, costs are more predictable, and having data engineering and BI in one place has already simplified several workflows. But go in with realistic expectations — it's not a flip-of-a-switch.
+
+If you're considering a similar migration and have questions, [reach out](/contact.html).

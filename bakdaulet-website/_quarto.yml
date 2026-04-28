@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bakdaulet Karakulov"
+  description: "Senior Software Developer & Data Analytics Professional"
+  favicon: "images/favicon.png"
+  
+  navbar:
+    background: "#0f172a"
+    foreground: "#f1f5f9"
+    logo: ""
+    title: "BK"
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/bakdault/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/bakdaulet
+        aria-label: GitHub
+
+  page-footer:
+    background: "#0f172a"
+    foreground: "#94a3b8"
+    center: "© 2025 Bakdaulet Karakulov · Boston, MA"
+
+format:
+  html:
+    theme: [flatly, styles.css]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 0px

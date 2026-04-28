@@ -1,0 +1,39 @@
+---
+title: "Why I'm Betting on Microsoft Fabric for 2026"
+date: "2026-03-12"
+categories: [Fabric, Power BI]
+description: "After a year of production use, here's why Microsoft Fabric has become the center of how I think about data platform architecture."
+format:
+  html:
+    toc: true
+---
+
+A year ago I wrote about [migrating to Microsoft Fabric](/blog/posts/fabric-migration.html). A year in production later — here's the updated take.
+
+## What I got wrong
+
+My initial concern was that Fabric was "too new" for serious production use. That was wrong. The platform has matured quickly, Microsoft's investment has been relentless, and the community has grown substantially.
+
+I also underestimated OneLake. Having a single logical data lake that all Fabric workloads read from — no copying, no ETL between tools — is genuinely transformative for how you architect data platforms.
+
+## What Fabric does well now
+
+**Direct Lake is production-ready.** This was experimental a year ago. Today it's the default recommendation for large Power BI semantic models, and it delivers on the promise: fast queries against Delta tables without import refresh cycles.
+
+**Fabric notebooks + lakehouses are a solid alternative to Databricks** for organizations already in the Microsoft ecosystem. Not as mature, but the integration story is significantly simpler.
+
+**Data pipelines have improved.** The Gen2 Dataflow and Data Factory pipeline experience inside Fabric is now genuinely better than standalone ADF for most use cases I encounter.
+
+## What still needs work
+
+**Monitoring and observability** is still patchy. Understanding exactly what's running, what's consuming capacity, and what's slow requires jumping between multiple tools. A unified observability layer would be a huge quality-of-life improvement.
+
+**Capacity management** can catch you off-guard. Fabric uses a consumption-based model, and a runaway query or a poorly optimized notebook can spike capacity unexpectedly. Budget alerts and capacity smoothing help, but it requires active management.
+
+## The platform bet
+
+Here's why I'm all-in: Microsoft has committed to making Fabric the unified data platform across the entire Azure data stack. Every piece — Synapse, ADF, Power BI, Purview, Machine Learning — is converging into Fabric. For organizations on Azure, the long-term trajectory is clear.
+
+For consultants and developers who build on the Microsoft stack, Fabric fluency is quickly becoming table stakes. Not "nice to have" — required.
+
+If you haven't gotten hands-on with it yet, the [Microsoft Fabric free trial](https://aka.ms/try-fabric) gives you a Fabric capacity to experiment with. Start there.

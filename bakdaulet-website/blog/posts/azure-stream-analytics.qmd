@@ -1,0 +1,95 @@
+---
+title: "Real-Time Analytics with Azure Stream Analytics"
+date: "2025-08-03"
+categories: [Azure, Streaming, Power BI]
+description: "How we built a real-time curb occupancy pipeline using Azure Stream Analytics and streamed it to Power BI dashboards with sub-minute latency."
+format:
+  html:
+    toc: true
+---
+
+Most analytics pipelines are batch-based: pull data nightly, transform, load, refresh. That works until your stakeholders ask "but what's happening *right now*?" Here's how we solved it at Umojo.
+
+## The use case
+
+We track curb occupancy in real time — sensors send events every few seconds indicating whether a curb space is occupied, blocked, or available. City operations teams need live dashboards, not hourly snapshots.
+
+**Requirements:**
+- Sub-minute dashboard latency
+- Handle ~5,000 events/second at peak
+- Aggregate occupancy % by zone, by block, by city
+- Power BI as the visualization layer
+
+## Why Azure Stream Analytics
+
+We evaluated Kafka + custom consumers and Azure Event Hubs + Functions before landing on Stream Analytics (ASA). The key selling points:
+
+1. **SQL-like query language** — our team writes a lot of T-SQL; the ASA query model was immediately familiar
+2. **Native Power BI output** — ASA can push directly to a Power BI streaming dataset without any glue code
+3. **Windowing functions built-in** — tumbling, hopping, and sliding windows are first-class
+4. **Managed service** — no cluster to maintain
+
+## The pipeline
+
+```
+IoT Sensors
+    │
+    ▼
+Azure Event Hub  (ingestion)
+    │
+    ▼
+Azure Stream Analytics  (transformation)
+    │
+    ├──► Power BI Streaming Dataset  (live dashboard)
+    │
+    └──► Azure Data Lake / Delta  (historical archive)
+```
+
+## The ASA query
+
+The core transformation aggregates sensor events into 1-minute tumbling windows:
+
+```sql
+SELECT
+    Zone,
+    Block,
+    CityID,
+    COUNT(*) AS TotalSpaces,
+    SUM(CASE WHEN Status = 'Occupied' THEN 1 ELSE 0 END) AS OccupiedSpaces,
+    CAST(
+        SUM(CASE WHEN Status = 'Occupied' THEN 1 ELSE 0 END) AS FLOAT
+    ) / COUNT(*) * 100 AS OccupancyPct,
+    System.Timestamp() AS WindowEnd
+INTO [PowerBIOutput]
+FROM [EventHubInput] TIMESTAMP BY EventTime
+GROUP BY
+    Zone, Block, CityID,
+    TumblingWindow(minute, 1)
+```
+
+One window, four output metrics, feeding live into Power BI.
+
+## Power BI streaming dataset
+
+The ASA output targets a Power BI streaming dataset — a special dataset type that accepts REST push and doesn't persist historical data by default (you can enable historic analysis to keep a rolling window).
+
+In the Power BI report, tiles connected to streaming datasets update automatically without manual refresh. The dashboard latency we achieved: **18–35 seconds end-to-end** from sensor event to dashboard update.
+
+## Handling late-arriving events
+
+Sensors occasionally batch-send events due to network interruptions. ASA has native late-arrival tolerance:
+
+```
+Late arrival tolerance: 5 minutes
+Out-of-order tolerance: 30 seconds
+```
+
+This prevents dropped events while keeping the window calculation accurate.
+
+## Cost considerations
+
+ASA is billed per Streaming Unit (SU). We run 3 SUs for our peak load, which handles ~5,000 events/second comfortably. Right-size before going to production — over-provisioning SUs is the most common cost mistake I've seen.
+
+---
+
+The full stack — Event Hub → Stream Analytics → Power BI — took about two weeks to build and tune. The operational simplicity has been worth it. If you're building something similar, [I'm happy to chat](/contact.html).
