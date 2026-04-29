@@ -1,0 +1,224 @@
+---
+title: "CV"
+format:
+  html:
+    page-layout: full
+---
+
+```{=html}
+<div class="section" style="max-width:820px;">
+
+  <!-- CV Header Card -->
+  <div class="cv-header">
+    <div style="position:relative; z-index:1;">
+      <div class="cv-name">Bakdaulet Karakulov</div>
+      <div class="cv-title">Senior Software Developer & Business Intelligence Engineer</div>
+      <div class="cv-contact-row">
+        <span>📧 <a href="mailto:bakdauletkarakulov@gmail.com">bakdauletkarakulov@gmail.com</a></span>
+        <span>🔗 <a href="https://www.linkedin.com/in/bakdault" target="_blank">linkedin.com/in/bakdault</a></span>
+        <span>📍 Greater Boston, MA</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Download Bar -->
+  <div class="cv-download-bar">
+    <div>
+      <div style="font-family:'Syne',sans-serif; font-weight:700; color:#0f172a; font-size:.95rem;">Download Full CV</div>
+      <div style="font-size:.82rem; color:#64748b; margin-top:.1rem;">PDF version available for download</div>
+    </div>
+    <a href="cv/bakdaulet-karakulov-cv.pdf" download class="btn-primary-custom" style="font-size:.85rem; padding:.6rem 1.4rem;">
+      ↓ Download PDF
+    </a>
+  </div>
+
+  <!-- Professional Experience -->
+  <div class="cv-section-head">Professional Experience</div>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="cv-entry">
+        <div class="cv-entry-left">
+          <div class="cv-entry-title">Senior Software Developer</div>
+          <div class="cv-entry-org"><strong>Umojo</strong> · Boston, MA</div>
+        </div>
+        <div class="cv-entry-date">Jul 2022 – Present</div>
+      </div>
+      <ul class="cv-bullets">
+        <li>Developed and automated workflows using Power Apps and Power Automate, enhancing operational efficiency</li>
+        <li>Led migration to Microsoft Fabric and optimized existing reports to maximize performance within limited capacity constraints</li>
+        <li>Designed and developed Power BI dashboards for executive decision-making; specialized in curb management reporting with Occupancy, Availability, Compliance, and Turnover metrics</li>
+        <li>Collaborated with development team to embed reports and configure Row-Level Security (RLS) for controlled multi-tenant data access</li>
+        <li>Leveraged Azure Stream Analytics to enable real-time reporting and data processing pipelines</li>
+        <li>Managed Power Platform licensing and on-premises data gateways ensuring seamless connectivity</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <div class="cv-entry">
+        <div class="cv-entry-left">
+          <div class="cv-entry-title">MS Power Platform & Business Intelligence Developer</div>
+          <div class="cv-entry-org"><strong>Chevron (Tengizchevroil JV)</strong> · Kazakhstan</div>
+        </div>
+        <div class="cv-entry-date">May 2021 – Jun 2022</div>
+      </div>
+      <ul class="cv-bullets">
+        <li>Managed digitalization projects for the 3GP Quality team with end-to-end data handling via Azure Data Factory and SSIS</li>
+        <li>Developed custom Canvas and Model-Driven Power Apps aligned with organizational requirements</li>
+        <li>Built Power BI reports and Power Apps solutions collaborating with cross-functional PM teams to gather QA/QC data</li>
+        <li>Organized QA/QC data into standardized reporting formats with analytical dashboards for partner project teams</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <div class="cv-entry">
+        <div class="cv-entry-left">
+          <div class="cv-entry-title">Data Analyst</div>
+          <div class="cv-entry-org"><strong>EPAM Systems</strong> · Indiana, USA (Remote)</div>
+        </div>
+        <div class="cv-entry-date">Jan 2021 – May 2021</div>
+      </div>
+      <ul class="cv-bullets">
+        <li>Served as Power BI developer on Analytic.li analytics project, performing advanced dashboard development</li>
+        <li>Conducted dataset performance testing and analyzed DAX formula efficiency</li>
+        <li>Investigated Tabular Object Models (TOM) and XMLA endpoints for reporting optimization</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <div class="cv-entry">
+        <div class="cv-entry-left">
+          <div class="cv-entry-title">MS Power BI & Power Apps Developer</div>
+          <div class="cv-entry-org"><strong>Chevron (Tengizchevroil JV)</strong> · Kazakhstan</div>
+        </div>
+        <div class="cv-entry-date">Oct 2019 – Jan 2021</div>
+      </div>
+      <ul class="cv-bullets">
+        <li>Developed automation, digitalization, and visualization tools integrating Microsoft Power Platform end-to-end</li>
+        <li>Led Power Platform projects from initial request through Go-live, managing client interaction and post-deployment support</li>
+        <li>Performed expert-level data wrangling in Power BI utilizing DAX and M for complex analysis and deep reporting</li>
+        <li>Built Power Apps using CDS, SharePoint, and SQL; created Power Automate flows integrated with enterprise apps</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <div class="cv-entry">
+        <div class="cv-entry-left">
+          <div class="cv-entry-title">Power BI Developer</div>
+          <div class="cv-entry-org"><strong>Raimbek Group</strong> · Kazakhstan</div>
+        </div>
+        <div class="cv-entry-date">Oct 2017 – Oct 2019</div>
+      </div>
+      <ul class="cv-bullets">
+        <li>Developed visual reports, dashboards, and KPI scorecards for one of Kazakhstan's largest FMCG companies</li>
+        <li>Connected to diverse data sources and transformed data for BI using DAX, M, and SQL</li>
+        <li>Applied Python and NLP libraries for advanced analytics across large-volume datasets</li>
+        <li>Translated complex data into informative visuals supporting leadership with trending analysis</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Education -->
+  <div class="cv-section-head">Education</div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-left">
+      <div class="cv-entry-title">Master of Science, Applied Business Analytics</div>
+      <div class="cv-entry-org"><strong>Boston University</strong> · Boston, MA</div>
+    </div>
+    <div class="cv-entry-date">Jan 2025 – May 2026</div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-left">
+      <div class="cv-entry-title">Bachelor of Engineering & Technology, Information Systems</div>
+      <div class="cv-entry-org"><strong>Suleyman Demirel University</strong> · Kazakhstan</div>
+    </div>
+    <div class="cv-entry-date"></div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-left">
+      <div class="cv-entry-title">Language Courses, Chinese Language & Literature</div>
+      <div class="cv-entry-org"><strong>Shanghai University of Engineering Science</strong> · Shanghai, China</div>
+    </div>
+    <div class="cv-entry-date"></div>
+  </div>
+
+  <!-- Additional Experience -->
+  <div class="cv-section-head">Additional Experience</div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-left">
+      <div class="cv-entry-title">STEM Trainer — Robotics & Computer Science</div>
+      <div class="cv-entry-org"><strong>Nazarbayev Intellectual Schools</strong> · Almaty, Kazakhstan</div>
+      <ul class="cv-bullets" style="margin-top:.5rem;">
+        <li>Taught Robotics Programming and STEM subjects, preparing students for Cambridge A-Level Computer Science exams</li>
+        <li>Led students in regional Robotics and IT competitions</li>
+      </ul>
+    </div>
+    <div class="cv-entry-date">Oct 2016 – Sep 2017</div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-left">
+      <div class="cv-entry-title">Programming Instructor — Python</div>
+      <div class="cv-entry-org"><strong>Bolashak Engineering</strong> (Chevron & International Youth Foundation Program) · Kazakhstan</div>
+      <ul class="cv-bullets" style="margin-top:.5rem;">
+        <li>Delivered Python instruction as part of a Chevron-sponsored social program</li>
+        <li>Designed curriculum and classroom materials aligned with course objectives</li>
+      </ul>
+    </div>
+    <div class="cv-entry-date">Aug 2016 – Sep 2017</div>
+  </div>
+
+  <!-- Skills -->
+  <div class="cv-section-head">Technical Skills</div>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:1rem;">
+    <div>
+      <div style="font-weight:600; color:#0f172a; font-size:.88rem; margin-bottom:.5rem;">Programming Languages</div>
+      <div class="skill-grid">
+        <span class="skill-badge">Python</span>
+        <span class="skill-badge">SQL</span>
+        <span class="skill-badge">DAX</span>
+        <span class="skill-badge">M Language</span>
+        <span class="skill-badge">PowerShell</span>
+        <span class="skill-badge">Django</span>
+      </div>
+    </div>
+    <div>
+      <div style="font-weight:600; color:#0f172a; font-size:.88rem; margin-bottom:.5rem;">BI & Data Tools</div>
+      <div class="skill-grid">
+        <span class="skill-badge">Power BI</span>
+        <span class="skill-badge">Azure Data Factory</span>
+        <span class="skill-badge">Azure Stream Analytics</span>
+        <span class="skill-badge">SSIS</span>
+        <span class="skill-badge">Microsoft Fabric</span>
+      </div>
+    </div>
+    <div>
+      <div style="font-weight:600; color:#0f172a; font-size:.88rem; margin-bottom:.5rem;">Power Platform</div>
+      <div class="skill-grid">
+        <span class="skill-badge">Power Apps</span>
+        <span class="skill-badge">Power Automate</span>
+        <span class="skill-badge">SharePoint Online</span>
+        <span class="skill-badge">Dataverse / CDS</span>
+      </div>
+    </div>
+    <div>
+      <div style="font-weight:600; color:#0f172a; font-size:.88rem; margin-bottom:.5rem;">Languages</div>
+      <div class="skill-grid">
+        <span class="skill-badge">Kazakh (Native)</span>
+        <span class="skill-badge">Russian</span>
+        <span class="skill-badge">English</span>
+        <span class="skill-badge">Turkish</span>
+        <span class="skill-badge">Chinese</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+```

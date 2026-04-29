@@ -1,0 +1,380 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Portfolio\n    Featured Projects\n    \n      A selection of professional and academic work across data engineering, \n      business intelligence, and automation.\n    \n  \n\n\n\n\n  \n  Highlighted Work\n\n  \n    \n      \n        Featured · Production\n        Curb Management Analytics Platform\n      \n      Umojo · 2022–Present\n    \n    \n      End-to-end analytics solution for real-time curb management reporting in urban environments. \n      Built comprehensive metrics for Occupancy, Availability, Compliance, and Turnover rates, \n      delivering live insights to city planners and operations teams. Integrated Azure Stream Analytics \n      for continuous data ingestion and embedded Power BI reports with Row-Level Security (RLS) \n      for controlled multi-tenant data access.\n    \n    \n      \n        4\n        Core KPI Metrics\n      \n      \n        Real-time\n        Data Processing\n      \n      \n        RLS\n        Multi-tenant Security\n      \n    \n    \n      Power BI\n      Azure Stream Analytics\n      DAX\n      Row-Level Security\n      Microsoft Fabric\n      Python\n    \n  \n\n  \n  \n\n    \n      🏗️\n      \n        Umojo · 2023\n        Microsoft Fabric Migration\n      \n      \n        Led the full migration of existing Power BI infrastructure to Microsoft Fabric, \n        optimizing report performance and capacity utilization. Redesigned data models \n        and implemented Lakehouses for improved data governance and cost efficiency.\n      \n      \n        Microsoft Fabric\n        Power BI\n        Lakehouse\n        DAX\n      \n    \n\n    \n      ⚙️\n      \n        Chevron (TCO) · 2021–2022\n        QA/QC Data Pipeline & Reporting\n      \n      \n        Managed digitalization of quality assurance workflows for the 3GP Quality team at \n        Tengizchevroil. Built end-to-end ETL pipelines using Azure Data Factory and SSIS, \n        producing standardized analytical dashboards for partner project teams.\n      \n      \n        Azure Data Factory\n        SSIS\n        Power BI\n        Power Apps\n        SQL\n      \n    \n\n    \n      📱\n      \n        Chevron (TCO) · 2019–2021\n        Enterprise Power Platform Suite\n      \n      \n        Developed a suite of canvas and model-driven Power Apps integrated with Dataverse, \n        SharePoint, and SQL Server. Automated business workflows with Power Automate, \n        replacing manual processes across multiple operational departments.\n      \n      \n        Power Apps\n        Power Automate\n        Dataverse\n        SharePoint\n      \n    \n\n    \n      🤖\n      \n        Raimbek Group · 2017–2019\n        FMCG NLP Analytics Engine\n      \n      \n        Applied Python NLP libraries to analyze large-volume consumer and market datasets \n        for Kazakhstan's leading FMCG company. Produced trending analysis reports and \n        KPI scorecards supporting executive decision-making across 50+ SKUs.\n      \n      \n        Python\n        NLP\n        Power BI\n        SQL\n        DAX\n      \n    \n\n    \n      📈\n      \n        EPAM / Analytic.li · 2021\n        Dashboard Performance Optimization\n      \n      \n        Served as Power BI developer on a client analytics platform, conducting deep \n        DAX formula performance analysis and investigating Tabular Object Models (TOM) \n        and XMLA endpoints to significantly reduce report load times.\n      \n      \n        Power BI\n        TOM\n        XMLA\n        DAX\n        Performance Tuning\n      \n    \n\n    \n      🎓\n      \n        Boston University · 2025–2026\n        Graduate Analytics Projects\n      \n      \n        Applied business analytics projects as part of the BU M.S. program, including \n        web analytics, predictive modeling, and data-driven decision frameworks. \n        Projects cover topics in machine learning, statistics, and business strategy.\n      \n      \n        Python\n        Machine Learning\n        Web Analytics\n        Statistics"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Bakdaulet Karakulov\n      Senior Software Developer & Business Intelligence Engineer\n      \n        📧 bakdauletkarakulov@gmail.com\n        🔗 linkedin.com/in/bakdault\n        📍 Greater Boston, MA\n      \n    \n  \n\n  \n  \n    \n      Download Full CV\n      PDF version available for download\n    \n    \n      ↓ Download PDF\n    \n  \n\n  \n  Professional Experience\n\n  \n\n    \n      \n        \n          Senior Software Developer\n          Umojo · Boston, MA\n        \n        Jul 2022 – Present\n      \n      \n        Developed and automated workflows using Power Apps and Power Automate, enhancing operational efficiency\n        Led migration to Microsoft Fabric and optimized existing reports to maximize performance within limited capacity constraints\n        Designed and developed Power BI dashboards for executive decision-making; specialized in curb management reporting with Occupancy, Availability, Compliance, and Turnover metrics\n        Collaborated with development team to embed reports and configure Row-Level Security (RLS) for controlled multi-tenant data access\n        Leveraged Azure Stream Analytics to enable real-time reporting and data processing pipelines\n        Managed Power Platform licensing and on-premises data gateways ensuring seamless connectivity\n      \n    \n\n    \n      \n        \n          MS Power Platform & Business Intelligence Developer\n          Chevron (Tengizchevroil JV) · Kazakhstan\n        \n        May 2021 – Jun 2022\n      \n      \n        Managed digitalization projects for the 3GP Quality team with end-to-end data handling via Azure Data Factory and SSIS\n        Developed custom Canvas and Model-Driven Power Apps aligned with organizational requirements\n        Built Power BI reports and Power Apps solutions collaborating with cross-functional PM teams to gather QA/QC data\n        Organized QA/QC data into standardized reporting formats with analytical dashboards for partner project teams\n      \n    \n\n    \n      \n        \n          Data Analyst\n          EPAM Systems · Indiana, USA (Remote)\n        \n        Jan 2021 – May 2021\n      \n      \n        Served as Power BI developer on Analytic.li analytics project, performing advanced dashboard development\n        Conducted dataset performance testing and analyzed DAX formula efficiency\n        Investigated Tabular Object Models (TOM) and XMLA endpoints for reporting optimization\n      \n    \n\n    \n      \n        \n          MS Power BI & Power Apps Developer\n          Chevron (Tengizchevroil JV) · Kazakhstan\n        \n        Oct 2019 – Jan 2021\n      \n      \n        Developed automation, digitalization, and visualization tools integrating Microsoft Power Platform end-to-end\n        Led Power Platform projects from initial request through Go-live, managing client interaction and post-deployment support\n        Performed expert-level data wrangling in Power BI utilizing DAX and M for complex analysis and deep reporting\n        Built Power Apps using CDS, SharePoint, and SQL; created Power Automate flows integrated with enterprise apps\n      \n    \n\n    \n      \n        \n          Power BI Developer\n          Raimbek Group · Kazakhstan\n        \n        Oct 2017 – Oct 2019\n      \n      \n        Developed visual reports, dashboards, and KPI scorecards for one of Kazakhstan's largest FMCG companies\n        Connected to diverse data sources and transformed data for BI using DAX, M, and SQL\n        Applied Python and NLP libraries for advanced analytics across large-volume datasets\n        Translated complex data into informative visuals supporting leadership with trending analysis\n      \n    \n\n  \n\n  \n  Education\n\n  \n    \n      Master of Science, Applied Business Analytics\n      Boston University · Boston, MA\n    \n    Jan 2025 – May 2026\n  \n\n  \n    \n      Bachelor of Engineering & Technology, Information Systems\n      Suleyman Demirel University · Kazakhstan\n    \n    \n  \n\n  \n    \n      Language Courses, Chinese Language & Literature\n      Shanghai University of Engineering Science · Shanghai, China\n    \n    \n  \n\n  \n  Additional Experience\n\n  \n    \n      STEM Trainer — Robotics & Computer Science\n      Nazarbayev Intellectual Schools · Almaty, Kazakhstan\n      \n        Taught Robotics Programming and STEM subjects, preparing students for Cambridge A-Level Computer Science exams\n        Led students in regional Robotics and IT competitions\n      \n    \n    Oct 2016 – Sep 2017\n  \n\n  \n    \n      Programming Instructor — Python\n      Bolashak Engineering (Chevron & International Youth Foundation Program) · Kazakhstan\n      \n        Delivered Python instruction as part of a Chevron-sponsored social program\n        Designed curriculum and classroom materials aligned with course objectives\n      \n    \n    Aug 2016 – Sep 2017\n  \n\n  \n  Technical Skills\n\n  \n    \n      Programming Languages\n      \n        Python\n        SQL\n        DAX\n        M Language\n        PowerShell\n        Django\n      \n    \n    \n      BI & Data Tools\n      \n        Power BI\n        Azure Data Factory\n        Azure Stream Analytics\n        SSIS\n        Microsoft Fabric\n      \n    \n    \n      Power Platform\n      \n        Power Apps\n        Power Automate\n        SharePoint Online\n        Dataverse / CDS\n      \n    \n    \n      Languages\n      \n        Kazakh (Native)\n        Russian\n        English\n        Turkish\n        Chinese"
+  },
+  {
+    "objectID": "blog/posts/python-wrangling.html",
+    "href": "blog/posts/python-wrangling.html",
+    "title": "Python Data Wrangling for BI Developers",
+    "section": "",
+    "text": "I started in Power BI — DAX, M, the whole ecosystem. Python came later, but it fundamentally changed what I could build. Here’s a practical introduction for BI developers making the same shift."
+  },
+  {
+    "objectID": "blog/posts/python-wrangling.html#why-python-alongside-power-bi",
+    "href": "blog/posts/python-wrangling.html#why-python-alongside-power-bi",
+    "title": "Python Data Wrangling for BI Developers",
+    "section": "Why Python alongside Power BI?",
+    "text": "Why Python alongside Power BI?\nDAX is excellent for columnar calculations at query time. M is great for ETL within Power Query. But both have ceilings:\n\nStatistical modeling beyond simple aggregates? Python.\nNLP on text fields? Python.\nAPI calls during data prep? Python (or a custom connector, but Python is faster to prototype).\nData quality scoring across millions of rows? Python.\n\nThe two ecosystems complement each other. I use Python for heavy lifting in data prep and modeling, then feed clean data into Power BI for visualization."
+  },
+  {
+    "objectID": "blog/posts/python-wrangling.html#the-core-libraries",
+    "href": "blog/posts/python-wrangling.html#the-core-libraries",
+    "title": "Python Data Wrangling for BI Developers",
+    "section": "The core libraries",
+    "text": "The core libraries\nimport pandas as pd       # DataFrames — your M equivalent\nimport numpy as np        # Numerical operations\nimport matplotlib.pyplot as plt  # Quick plots\nIf you’ve worked with Power Query tables, pandas DataFrames will feel familiar. Think of a DataFrame as a table you can manipulate with Python code."
+  },
+  {
+    "objectID": "blog/posts/python-wrangling.html#a-real-wrangling-example",
+    "href": "blog/posts/python-wrangling.html#a-real-wrangling-example",
+    "title": "Python Data Wrangling for BI Developers",
+    "section": "A real wrangling example",
+    "text": "A real wrangling example\nHere’s something I do regularly — standardizing vendor data from multiple sources that use inconsistent naming:\nimport pandas as pd\nimport re\n\ndf = pd.read_csv('vendor_data.csv')\n\n# Standardize company names\ndef clean_company_name(name):\n    if pd.isna(name):\n        return 'Unknown'\n    # Remove legal suffixes, strip whitespace, title case\n    name = re.sub(r'\\b(LLC|Inc|Corp|Ltd|Co)\\.?\\b', '', str(name))\n    return ' '.join(name.strip().split()).title()\n\ndf['company_clean'] = df['company_raw'].apply(clean_company_name)\n\n# Standardize date columns\ndf['event_date'] = pd.to_datetime(df['event_date'], errors='coerce')\ndf['event_year'] = df['event_date'].dt.year\ndf['event_month'] = df['event_date'].dt.month\n\n# Flag missing critical fields\ndf['has_missing'] = df[['company_clean', 'event_date', 'amount']].isna().any(axis=1)\n\nprint(df['has_missing'].value_counts())\nThe equivalent in M would be 3x longer and much harder to read."
+  },
+  {
+    "objectID": "blog/posts/python-wrangling.html#connecting-python-output-to-power-bi",
+    "href": "blog/posts/python-wrangling.html#connecting-python-output-to-power-bi",
+    "title": "Python Data Wrangling for BI Developers",
+    "section": "Connecting Python output to Power BI",
+    "text": "Connecting Python output to Power BI\nOnce you have clean data in Python, there are a few ways to get it into Power BI:\n\nExport to CSV/Parquet and load in Power Query\nPython visuals (run Python directly in a Power BI report — limited but useful for custom charts)\nWrite to a database that Power BI connects to (preferred for production)\n\nFor production pipelines, I use option 3 — Python scripts run on a schedule (via Azure Functions or a VM), write results to SQL Server or Azure Data Lake, and Power BI picks them up on refresh."
+  },
+  {
+    "objectID": "blog/posts/python-wrangling.html#where-to-go-next",
+    "href": "blog/posts/python-wrangling.html#where-to-go-next",
+    "title": "Python Data Wrangling for BI Developers",
+    "section": "Where to go next",
+    "text": "Where to go next\n\npandas documentation — it’s genuinely good: pandas.pydata.org\n“Python for Data Analysis” by Wes McKinney — written by the creator of pandas\nKaggle’s free Python course — practical, short exercises\n\nThe learning curve from M to Python is real but shorter than you’d expect. Within a month of focused practice, you’ll find yourself reaching for Python first on complex data prep tasks."
+  },
+  {
+    "objectID": "blog/posts/power-bi-performance.html",
+    "href": "blog/posts/power-bi-performance.html",
+    "title": "Optimizing Power BI Report Load Times",
+    "section": "",
+    "text": "Slow Power BI reports kill adoption. I’ve worked on dashboards that took 45 seconds to load and ones that loaded in under 2. Here’s what makes the difference."
+  },
+  {
+    "objectID": "blog/posts/power-bi-performance.html#diagnose-before-you-optimize",
+    "href": "blog/posts/power-bi-performance.html#diagnose-before-you-optimize",
+    "title": "Optimizing Power BI Report Load Times",
+    "section": "Diagnose before you optimize",
+    "text": "Diagnose before you optimize\nUse Performance Analyzer (View → Performance Analyzer) to record exactly how long each visual takes to render and which DAX queries are running. Never guess — measure.\nFor deeper investigation, connect DAX Studio to your report and use Server Timings to see storage engine vs. formula engine time. If most of your time is in the formula engine, your DAX needs work. If it’s storage engine, your model structure needs work."
+  },
+  {
+    "objectID": "blog/posts/power-bi-performance.html#dax-optimizations",
+    "href": "blog/posts/power-bi-performance.html#dax-optimizations",
+    "title": "Optimizing Power BI Report Load Times",
+    "section": "DAX optimizations",
+    "text": "DAX optimizations\n\nAvoid iterator functions over large tables\nSUMX, AVERAGEX, and friends iterate row by row. Over millions of rows, this is slow.\n-- Slow\nSlowMeasure = SUMX(Orders, Orders[Quantity] * Orders[UnitPrice])\n\n-- Faster: pre-compute in a calculated column, or restructure\nFastMeasure = SUMX(Orders, Orders[ExtendedPrice])\nIf the multiplication is always the same, make it a calculated column so it runs once at refresh time, not at query time.\n\n\nReplace CALCULATE with simpler alternatives\nEvery CALCULATE modifies the filter context — it’s powerful but not free. For simple filtered aggregations, sometimes a relationship and a base measure is faster.\n\n\nUse variables\nVariables cache the result of an expression so it isn’t evaluated multiple times in the same DAX query:\nSalesMeasure =\nVAR TotalSales = SUM(Orders[Amount])\nVAR Target = [SalesTarget]\nRETURN\n    DIVIDE(TotalSales - Target, Target)\nWithout VAR, SUM(Orders[Amount]) might be evaluated multiple times."
+  },
+  {
+    "objectID": "blog/posts/power-bi-performance.html#model-design",
+    "href": "blog/posts/power-bi-performance.html#model-design",
+    "title": "Optimizing Power BI Report Load Times",
+    "section": "Model design",
+    "text": "Model design\n\nUse star schema, not flat tables\nA fact table surrounded by dimension tables lets the VertiPaq engine compress data far more efficiently than a single wide flat table. If your model is one giant table with 80 columns, restructure it.\n\n\nRemove unused columns\nEvery column you import lives in memory. If you’re not using CustomerMiddleName in any visual or DAX, drop it in Power Query before loading. This alone can halve model size on data-rich tables.\n\n\nChoose the right storage mode\n\n\n\nScenario\nStorage Mode\n\n\n\n\nData fits in memory, fast queries needed\nImport\n\n\nHuge data, acceptable query latency\nDirectQuery\n\n\nMix of large + small tables\nComposite\n\n\nFabric Lakehouse, near-real-time\nDirect Lake\n\n\n\nDirectQuery reports are almost always slower than Import — only use it when data volumes or freshness requirements force your hand."
+  },
+  {
+    "objectID": "blog/posts/power-bi-performance.html#visuals-and-report-design",
+    "href": "blog/posts/power-bi-performance.html#visuals-and-report-design",
+    "title": "Optimizing Power BI Report Load Times",
+    "section": "Visuals and report design",
+    "text": "Visuals and report design\n\nReduce visuals per page. Each visual triggers at least one DAX query. A report with 25 visuals on one page fires 25+ queries on load.\nUse Bookmarks to show/hide visuals rather than putting everything on the canvas at once.\nAvoid high-cardinality slicers. A slicer on a column with 50,000 unique values is expensive to render.\nDisable “show items with no data” on visuals unless you need it — it forces additional queries."
+  },
+  {
+    "objectID": "blog/posts/power-bi-performance.html#the-biggest-win-ive-seen",
+    "href": "blog/posts/power-bi-performance.html#the-biggest-win-ive-seen",
+    "title": "Optimizing Power BI Report Load Times",
+    "section": "The biggest win I’ve seen",
+    "text": "The biggest win I’ve seen\nThe single biggest improvement I’ve ever gotten: removing unused relationships from the data model. Invisible bidirectional relationships that “seemed harmless” were forcing the engine to walk the full graph on every query. Removing two unused many-to-many relationships cut a dashboard from 22 seconds to 4 seconds.\nAlways audit your relationships after a model has been in production for a while. Relationships accumulate. Not all of them should stay."
+  },
+  {
+    "objectID": "blog/posts/microsoft-fabric-2026.html",
+    "href": "blog/posts/microsoft-fabric-2026.html",
+    "title": "Why I’m Betting on Microsoft Fabric for 2026",
+    "section": "",
+    "text": "A year ago I wrote about migrating to Microsoft Fabric. A year in production later — here’s the updated take."
+  },
+  {
+    "objectID": "blog/posts/microsoft-fabric-2026.html#what-i-got-wrong",
+    "href": "blog/posts/microsoft-fabric-2026.html#what-i-got-wrong",
+    "title": "Why I’m Betting on Microsoft Fabric for 2026",
+    "section": "What I got wrong",
+    "text": "What I got wrong\nMy initial concern was that Fabric was “too new” for serious production use. That was wrong. The platform has matured quickly, Microsoft’s investment has been relentless, and the community has grown substantially.\nI also underestimated OneLake. Having a single logical data lake that all Fabric workloads read from — no copying, no ETL between tools — is genuinely transformative for how you architect data platforms."
+  },
+  {
+    "objectID": "blog/posts/microsoft-fabric-2026.html#what-fabric-does-well-now",
+    "href": "blog/posts/microsoft-fabric-2026.html#what-fabric-does-well-now",
+    "title": "Why I’m Betting on Microsoft Fabric for 2026",
+    "section": "What Fabric does well now",
+    "text": "What Fabric does well now\nDirect Lake is production-ready. This was experimental a year ago. Today it’s the default recommendation for large Power BI semantic models, and it delivers on the promise: fast queries against Delta tables without import refresh cycles.\nFabric notebooks + lakehouses are a solid alternative to Databricks for organizations already in the Microsoft ecosystem. Not as mature, but the integration story is significantly simpler.\nData pipelines have improved. The Gen2 Dataflow and Data Factory pipeline experience inside Fabric is now genuinely better than standalone ADF for most use cases I encounter."
+  },
+  {
+    "objectID": "blog/posts/microsoft-fabric-2026.html#what-still-needs-work",
+    "href": "blog/posts/microsoft-fabric-2026.html#what-still-needs-work",
+    "title": "Why I’m Betting on Microsoft Fabric for 2026",
+    "section": "What still needs work",
+    "text": "What still needs work\nMonitoring and observability is still patchy. Understanding exactly what’s running, what’s consuming capacity, and what’s slow requires jumping between multiple tools. A unified observability layer would be a huge quality-of-life improvement.\nCapacity management can catch you off-guard. Fabric uses a consumption-based model, and a runaway query or a poorly optimized notebook can spike capacity unexpectedly. Budget alerts and capacity smoothing help, but it requires active management."
+  },
+  {
+    "objectID": "blog/posts/microsoft-fabric-2026.html#the-platform-bet",
+    "href": "blog/posts/microsoft-fabric-2026.html#the-platform-bet",
+    "title": "Why I’m Betting on Microsoft Fabric for 2026",
+    "section": "The platform bet",
+    "text": "The platform bet\nHere’s why I’m all-in: Microsoft has committed to making Fabric the unified data platform across the entire Azure data stack. Every piece — Synapse, ADF, Power BI, Purview, Machine Learning — is converging into Fabric. For organizations on Azure, the long-term trajectory is clear.\nFor consultants and developers who build on the Microsoft stack, Fabric fluency is quickly becoming table stakes. Not “nice to have” — required.\nIf you haven’t gotten hands-on with it yet, the Microsoft Fabric free trial gives you a Fabric capacity to experiment with. Start there."
+  },
+  {
+    "objectID": "blog/posts/dax-patterns.html",
+    "href": "blog/posts/dax-patterns.html",
+    "title": "5 DAX Patterns That Changed How I Build Reports",
+    "section": "",
+    "text": "After years of writing DAX professionally, certain patterns have become second nature. These five aren’t in most beginner tutorials, but they come up constantly in real work."
+  },
+  {
+    "objectID": "blog/posts/dax-patterns.html#the-selectedvalue-safety-pattern",
+    "href": "blog/posts/dax-patterns.html#the-selectedvalue-safety-pattern",
+    "title": "5 DAX Patterns That Changed How I Build Reports",
+    "section": "1. The SELECTEDVALUE safety pattern",
+    "text": "1. The SELECTEDVALUE safety pattern\nSELECTEDVALUE returns the value of a column when the filter context contains exactly one distinct value — otherwise returns the alternate result. I use it constantly for dynamic titles and conditional measures.\nSelectedRegion =\nSELECTEDVALUE(Regions[RegionName], \"All Regions\")\nThis is safer than VALUES(...)[0] or FIRSTNONBLANK, which can error or behave unexpectedly with multi-select slicers."
+  },
+  {
+    "objectID": "blog/posts/dax-patterns.html#rolling-n-period-calculation",
+    "href": "blog/posts/dax-patterns.html#rolling-n-period-calculation",
+    "title": "5 DAX Patterns That Changed How I Build Reports",
+    "section": "2. Rolling N-period calculation",
+    "text": "2. Rolling N-period calculation\nThe classic rolling average pattern, but generalized for any period selection:\nRolling3MonthSales =\nVAR MonthsToInclude = 3\nVAR LastDate = MAX(Calendar[Date])\nVAR FirstDate = EDATE(LastDate, -MonthsToInclude + 1)\nRETURN\n    CALCULATE(\n        [TotalSales],\n        Calendar[Date] &gt;= EOMONTH(FirstDate, -1) + 1,\n        Calendar[Date] &lt;= LastDate,\n        ALL(Calendar)\n    )\nParameterizing MonthsToInclude and driving it from a slicer gives you a self-service rolling window without multiple hardcoded measures."
+  },
+  {
+    "objectID": "blog/posts/dax-patterns.html#disconnected-table-for-what-if-parameters",
+    "href": "blog/posts/dax-patterns.html#disconnected-table-for-what-if-parameters",
+    "title": "5 DAX Patterns That Changed How I Build Reports",
+    "section": "3. Disconnected table for what-if parameters",
+    "text": "3. Disconnected table for what-if parameters\nA disconnected table (no relationships to anything) combined with SELECTEDVALUE is the cleanest way to build what-if scenario inputs:\n-- Disconnected table: DiscountRates with values 0, 0.05, 0.10, 0.15, 0.20\nSelectedDiscount =\nSELECTEDVALUE(DiscountRates[Rate], 0)\n\nProjectedRevenue =\n[BaseRevenue] * (1 - [SelectedDiscount])\nUsers pick a discount rate from a slicer; the measure responds. No parameters, no what-if wizard quirks."
+  },
+  {
+    "objectID": "blog/posts/dax-patterns.html#keepfilters-for-additive-filtering",
+    "href": "blog/posts/dax-patterns.html#keepfilters-for-additive-filtering",
+    "title": "5 DAX Patterns That Changed How I Build Reports",
+    "section": "4. KEEPFILTERS for additive filtering",
+    "text": "4. KEEPFILTERS for additive filtering\nKEEPFILTERS is CALCULATE’s underappreciated sibling. Without it, CALCULATE replaces the existing filter context. With it, it intersects:\n-- Without KEEPFILTERS: shows West Coast sales regardless of what's selected\nWestCoastSales =\nCALCULATE([TotalSales], Region[Area] = \"West Coast\")\n\n-- With KEEPFILTERS: only shows West Coast IF West Coast is in the current filter context\nWestCoastSales_Restricted =\nCALCULATE([TotalSales], KEEPFILTERS(Region[Area] = \"West Coast\"))\nI use KEEPFILTERS whenever I want a measure to “respect” slicer selections while also adding its own filter."
+  },
+  {
+    "objectID": "blog/posts/dax-patterns.html#the-virtual-relationship-pattern",
+    "href": "blog/posts/dax-patterns.html#the-virtual-relationship-pattern",
+    "title": "5 DAX Patterns That Changed How I Build Reports",
+    "section": "5. The virtual relationship pattern",
+    "text": "5. The virtual relationship pattern\nSometimes you need a filter to flow across tables that don’t have a physical relationship — or the physical relationship points the wrong way. TREATAS creates a virtual relationship at query time:\nBudgetForSelectedProducts =\nCALCULATE(\n    SUM(Budget[Amount]),\n    TREATAS(VALUES(Products[ProductID]), Budget[ProductID])\n)\nThis takes the current filter context on Products[ProductID] and applies it as if it were a filter on Budget[ProductID], without a physical relationship. Extremely useful in composite models or when bridging fact tables.\n\nDAX rewards pattern recognition. Once you’ve solved a problem the right way once, you’ll recognize the same shape in different contexts. These five patterns cover an enormous percentage of real reporting challenges.\nWhat patterns do you find yourself reaching for? I’d love to hear — find me on LinkedIn."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Writing\n    Notes on data engineering, Power BI, Python, and analytics from the field.\n    \n      \n        \n          \n          \n        \n      \n      \n    \n  \n\n  \n    No posts match your search.\n  \n\n  \n  \n    \n      2026\n      2 posts\n    \n    \n      \n        \n          March 12\n          Why I'm Betting on Microsoft Fabric for 2026\n          FabricPower BI\n        \n      \n      \n        \n          January 20\n          5 DAX Patterns That Changed How I Build Reports\n          DAXPower BI\n        \n      \n    \n  \n\n  \n  \n    \n      2025\n      3 posts\n    \n    \n      \n        \n          November 8\n          Row-Level Security in Power BI: A Practical Guide\n          Power BISecurity\n        \n      \n      \n        \n          August 3\n          Real-Time Analytics with Azure Stream Analytics\n          AzureStreaming\n        \n      \n      \n        \n          February 14\n          Migrating from Power BI Premium to Microsoft Fabric\n          FabricMigration\n        \n      \n    \n  \n\n  \n  \n    \n      2024\n      3 posts\n    \n    \n      \n        \n          October 22\n          Python Data Wrangling for BI Developers\n          PythonData\n        \n      \n      \n        \n          June 5\n          Power Apps Canvas vs. Model-Driven: When to Use Which\n          Power Apps\n        \n      \n      \n        \n          March 19\n          Optimizing Power BI Report Load Times\n          Power BIPerformance"
+  },
+  {
+    "objectID": "blog/posts/azure-stream-analytics.html",
+    "href": "blog/posts/azure-stream-analytics.html",
+    "title": "Real-Time Analytics with Azure Stream Analytics",
+    "section": "",
+    "text": "Most analytics pipelines are batch-based: pull data nightly, transform, load, refresh. That works until your stakeholders ask “but what’s happening right now?” Here’s how we solved it at Umojo."
+  },
+  {
+    "objectID": "blog/posts/azure-stream-analytics.html#the-use-case",
+    "href": "blog/posts/azure-stream-analytics.html#the-use-case",
+    "title": "Real-Time Analytics with Azure Stream Analytics",
+    "section": "The use case",
+    "text": "The use case\nWe track curb occupancy in real time — sensors send events every few seconds indicating whether a curb space is occupied, blocked, or available. City operations teams need live dashboards, not hourly snapshots.\nRequirements: - Sub-minute dashboard latency - Handle ~5,000 events/second at peak - Aggregate occupancy % by zone, by block, by city - Power BI as the visualization layer"
+  },
+  {
+    "objectID": "blog/posts/azure-stream-analytics.html#why-azure-stream-analytics",
+    "href": "blog/posts/azure-stream-analytics.html#why-azure-stream-analytics",
+    "title": "Real-Time Analytics with Azure Stream Analytics",
+    "section": "Why Azure Stream Analytics",
+    "text": "Why Azure Stream Analytics\nWe evaluated Kafka + custom consumers and Azure Event Hubs + Functions before landing on Stream Analytics (ASA). The key selling points:\n\nSQL-like query language — our team writes a lot of T-SQL; the ASA query model was immediately familiar\nNative Power BI output — ASA can push directly to a Power BI streaming dataset without any glue code\nWindowing functions built-in — tumbling, hopping, and sliding windows are first-class\nManaged service — no cluster to maintain"
+  },
+  {
+    "objectID": "blog/posts/azure-stream-analytics.html#the-pipeline",
+    "href": "blog/posts/azure-stream-analytics.html#the-pipeline",
+    "title": "Real-Time Analytics with Azure Stream Analytics",
+    "section": "The pipeline",
+    "text": "The pipeline\nIoT Sensors\n    │\n    ▼\nAzure Event Hub  (ingestion)\n    │\n    ▼\nAzure Stream Analytics  (transformation)\n    │\n    ├──► Power BI Streaming Dataset  (live dashboard)\n    │\n    └──► Azure Data Lake / Delta  (historical archive)"
+  },
+  {
+    "objectID": "blog/posts/azure-stream-analytics.html#the-asa-query",
+    "href": "blog/posts/azure-stream-analytics.html#the-asa-query",
+    "title": "Real-Time Analytics with Azure Stream Analytics",
+    "section": "The ASA query",
+    "text": "The ASA query\nThe core transformation aggregates sensor events into 1-minute tumbling windows:\nSELECT\n    Zone,\n    Block,\n    CityID,\n    COUNT(*) AS TotalSpaces,\n    SUM(CASE WHEN Status = 'Occupied' THEN 1 ELSE 0 END) AS OccupiedSpaces,\n    CAST(\n        SUM(CASE WHEN Status = 'Occupied' THEN 1 ELSE 0 END) AS FLOAT\n    ) / COUNT(*) * 100 AS OccupancyPct,\n    System.Timestamp() AS WindowEnd\nINTO [PowerBIOutput]\nFROM [EventHubInput] TIMESTAMP BY EventTime\nGROUP BY\n    Zone, Block, CityID,\n    TumblingWindow(minute, 1)\nOne window, four output metrics, feeding live into Power BI."
+  },
+  {
+    "objectID": "blog/posts/azure-stream-analytics.html#power-bi-streaming-dataset",
+    "href": "blog/posts/azure-stream-analytics.html#power-bi-streaming-dataset",
+    "title": "Real-Time Analytics with Azure Stream Analytics",
+    "section": "Power BI streaming dataset",
+    "text": "Power BI streaming dataset\nThe ASA output targets a Power BI streaming dataset — a special dataset type that accepts REST push and doesn’t persist historical data by default (you can enable historic analysis to keep a rolling window).\nIn the Power BI report, tiles connected to streaming datasets update automatically without manual refresh. The dashboard latency we achieved: 18–35 seconds end-to-end from sensor event to dashboard update."
+  },
+  {
+    "objectID": "blog/posts/azure-stream-analytics.html#handling-late-arriving-events",
+    "href": "blog/posts/azure-stream-analytics.html#handling-late-arriving-events",
+    "title": "Real-Time Analytics with Azure Stream Analytics",
+    "section": "Handling late-arriving events",
+    "text": "Handling late-arriving events\nSensors occasionally batch-send events due to network interruptions. ASA has native late-arrival tolerance:\nLate arrival tolerance: 5 minutes\nOut-of-order tolerance: 30 seconds\nThis prevents dropped events while keeping the window calculation accurate."
+  },
+  {
+    "objectID": "blog/posts/azure-stream-analytics.html#cost-considerations",
+    "href": "blog/posts/azure-stream-analytics.html#cost-considerations",
+    "title": "Real-Time Analytics with Azure Stream Analytics",
+    "section": "Cost considerations",
+    "text": "Cost considerations\nASA is billed per Streaming Unit (SU). We run 3 SUs for our peak load, which handles ~5,000 events/second comfortably. Right-size before going to production — over-provisioning SUs is the most common cost mistake I’ve seen.\n\nThe full stack — Event Hub → Stream Analytics → Power BI — took about two weeks to build and tune. The operational simplicity has been worth it. If you’re building something similar, I’m happy to chat."
+  },
+  {
+    "objectID": "blog/posts/fabric-migration.html",
+    "href": "blog/posts/fabric-migration.html",
+    "title": "Migrating from Power BI Premium to Microsoft Fabric",
+    "section": "",
+    "text": "At Umojo, I led the migration of our entire Power BI Premium infrastructure to Microsoft Fabric over Q4 2024 into early 2025. Here’s what I learned."
+  },
+  {
+    "objectID": "blog/posts/fabric-migration.html#why-migrate",
+    "href": "blog/posts/fabric-migration.html#why-migrate",
+    "title": "Migrating from Power BI Premium to Microsoft Fabric",
+    "section": "Why migrate?",
+    "text": "Why migrate?\nPower BI Premium per-capacity was getting expensive relative to what we were actually using. Microsoft Fabric promised a more unified, consumption-based model and, more importantly, a path toward lakehouse architecture that would simplify our entire data stack.\nThe pitch: one platform for data engineering, warehousing, BI, and ML. We were already deep in the Microsoft ecosystem, so this was a natural evolution."
+  },
+  {
+    "objectID": "blog/posts/fabric-migration.html#what-the-migration-actually-involved",
+    "href": "blog/posts/fabric-migration.html#what-the-migration-actually-involved",
+    "title": "Migrating from Power BI Premium to Microsoft Fabric",
+    "section": "What the migration actually involved",
+    "text": "What the migration actually involved\n\n1. Capacity and workspace setup\nThe first thing to understand is that Fabric workspaces are not the same as Power BI workspaces, even though they look similar. You’ll need to create a new Fabric-enabled workspace and migrate items into it.\nOld: Power BI Premium Workspace\n     └── Datasets (PBIX)\n     └── Reports\n     └── Dataflows (Gen1)\n\nNew: Fabric Workspace\n     └── Lakehouses\n     └── Semantic Models (upgraded datasets)\n     └── Reports\n     └── Dataflows Gen2\n\n\n2. Datasets → Semantic Models\nMicrosoft rebranded datasets to “Semantic Models” in Fabric, but the bigger change is how they’re managed. Direct Lake mode became available, allowing semantic models to read directly from Delta tables in a Lakehouse with near-zero import latency.\nWe had 23 datasets. About 18 migrated cleanly. The remaining 5 had complex composite models or custom connectors that needed manual rework.\n\n\n3. Dataflows Gen1 → Gen2\nThis was the most painful part. Gen1 Dataflows don’t automatically upgrade — you have to rebuild them in Gen2 from scratch, or export and re-import the M query code.\nTip: Export your Gen1 queries to .json and use them as a reference while rebuilding in Gen2. Don’t try to copy-paste M code blindly — some functions behave differently.\n\n\n4. Gateway migration\nOn-premises data gateways largely carried over, but we had to re-register connections in the new Fabric workspace. Budget time for this — especially if you have many datasources or shared gateway clusters."
+  },
+  {
+    "objectID": "blog/posts/fabric-migration.html#performance-observations",
+    "href": "blog/posts/fabric-migration.html#performance-observations",
+    "title": "Migrating from Power BI Premium to Microsoft Fabric",
+    "section": "Performance observations",
+    "text": "Performance observations\nAfter migration, report load times improved noticeably for our Direct Lake models — the elimination of import refresh cycles alone was worth it. However, some models that previously cached well saw slightly higher query times initially, as Direct Lake queries hit the lakehouse storage more frequently.\nThe fix was proper Delta table optimization: running OPTIMIZE and VACUUM on hot tables brought query performance back in line."
+  },
+  {
+    "objectID": "blog/posts/fabric-migration.html#what-id-do-differently",
+    "href": "blog/posts/fabric-migration.html#what-id-do-differently",
+    "title": "Migrating from Power BI Premium to Microsoft Fabric",
+    "section": "What I’d do differently",
+    "text": "What I’d do differently\n\nDon’t migrate everything at once. We tried to do too much in one sprint. A phased migration by priority gave us much better outcomes in the second half.\nTest Direct Lake thoroughly before committing. Some of our DAX measures behaved unexpectedly in Direct Lake mode vs. Import mode. Document your known patterns before switching.\nCommunicate early with stakeholders. Report refresh schedules changed during migration. A few teams were surprised. Avoid this."
+  },
+  {
+    "objectID": "blog/posts/fabric-migration.html#final-thoughts",
+    "href": "blog/posts/fabric-migration.html#final-thoughts",
+    "title": "Migrating from Power BI Premium to Microsoft Fabric",
+    "section": "Final thoughts",
+    "text": "Final thoughts\nOverall, the migration was worth it. We’re on a more modern platform, costs are more predictable, and having data engineering and BI in one place has already simplified several workflows. But go in with realistic expectations — it’s not a flip-of-a-switch.\nIf you’re considering a similar migration and have questions, reach out."
+  },
+  {
+    "objectID": "blog/posts/power-apps-canvas-vs-model.html",
+    "href": "blog/posts/power-apps-canvas-vs-model.html",
+    "title": "Power Apps Canvas vs. Model-Driven: When to Use Which",
+    "section": "",
+    "text": "Every time I start a new Power Apps project, someone asks: “Canvas or Model-Driven?” The answer is almost never obvious from the requirement document alone. Here’s the framework I use."
+  },
+  {
+    "objectID": "blog/posts/power-apps-canvas-vs-model.html#the-core-difference",
+    "href": "blog/posts/power-apps-canvas-vs-model.html#the-core-difference",
+    "title": "Power Apps Canvas vs. Model-Driven: When to Use Which",
+    "section": "The core difference",
+    "text": "The core difference\nCanvas apps give you pixel-perfect control over the UI. You design screens from scratch, place components where you want, and connect to virtually any datasource (SharePoint, SQL, Dataverse, REST APIs, Excel…). Think of it like building a webpage.\nModel-Driven apps are generated from your data model in Dataverse. You define entities, relationships, and forms — the UI is mostly auto-generated. Less visual flexibility, but more structured and faster to build for standard CRUD workflows."
+  },
+  {
+    "objectID": "blog/posts/power-apps-canvas-vs-model.html#when-canvas-wins",
+    "href": "blog/posts/power-apps-canvas-vs-model.html#when-canvas-wins",
+    "title": "Power Apps Canvas vs. Model-Driven: When to Use Which",
+    "section": "When Canvas wins",
+    "text": "When Canvas wins\nUse Canvas when:\n\nThe UX is non-standard. Custom layouts, branded interfaces, unusual navigation — Canvas is the only option.\nYour datasource isn’t Dataverse. SharePoint lists, SQL Server, REST APIs — Canvas handles them natively. Model-Driven requires Dataverse.\nIt’s a task-specific tool. A mobile form for field inspections, a kiosk interface, a focused data entry screen — Canvas excels here.\nThe user base is small. Canvas apps require per-user licensing; for small teams this is manageable.\n\nExample: At Raimbek Group, I built a Canvas app for field sales reps to enter daily visit logs on mobile. Custom map integration, offline-capable, branded UI. Model-Driven would have been the wrong choice."
+  },
+  {
+    "objectID": "blog/posts/power-apps-canvas-vs-model.html#when-model-driven-wins",
+    "href": "blog/posts/power-apps-canvas-vs-model.html#when-model-driven-wins",
+    "title": "Power Apps Canvas vs. Model-Driven: When to Use Which",
+    "section": "When Model-Driven wins",
+    "text": "When Model-Driven wins\nUse Model-Driven when:\n\nYou have complex relational data. Entities with many relationships, lookups, and business rules — Dataverse and Model-Driven handle this elegantly.\nYou need built-in features. Business Process Flows, role-based security, audit trails, and dashboards come for free. Building these in Canvas is expensive.\nPower Automate workflows are central. Dataverse + Power Automate integration is seamless. Trigger flows on record creation/update without custom connectors.\nMultiple apps share the same data. Dataverse is a shared layer. Multiple Model-Driven (and Canvas) apps can work on the same data without duplication.\n\nExample: At Chevron (TCO), we built a Model-Driven app for QA/QC project tracking — multiple entities (Projects, Inspections, Non-Conformances), complex relationships, approval workflows via Power Automate. Canvas would have taken 3x longer."
+  },
+  {
+    "objectID": "blog/posts/power-apps-canvas-vs-model.html#the-hybrid-approach",
+    "href": "blog/posts/power-apps-canvas-vs-model.html#the-hybrid-approach",
+    "title": "Power Apps Canvas vs. Model-Driven: When to Use Which",
+    "section": "The hybrid approach",
+    "text": "The hybrid approach\nFor projects where neither is a clean fit, combine both: use Model-Driven as the backbone (Dataverse, security, workflows) and embed Canvas apps as custom pages inside the Model-Driven experience.\nThis is the pattern Microsoft is pushing with Custom Pages — Canvas-designed screens that live within a Model-Driven app. It’s the best of both worlds, at the cost of additional complexity."
+  },
+  {
+    "objectID": "blog/posts/power-apps-canvas-vs-model.html#quick-decision-table",
+    "href": "blog/posts/power-apps-canvas-vs-model.html#quick-decision-table",
+    "title": "Power Apps Canvas vs. Model-Driven: When to Use Which",
+    "section": "Quick decision table",
+    "text": "Quick decision table\n\n\n\nRequirement\nCanvas\nModel-Driven\n\n\n\n\nCustom branding/layout\n✅\n❌\n\n\nNon-Dataverse data\n✅\n❌\n\n\nComplex entity relationships\n❌\n✅\n\n\nBusiness Process Flows\n❌\n✅\n\n\nAudit trails (built-in)\n❌\n✅\n\n\nMobile-optimized\n✅\nLimited\n\n\nFast CRUD UI\n❌\n✅\n\n\n\nWhen in doubt, ask: who will maintain this in 2 years? Model-Driven apps are easier to maintain as organizational data models evolve. Canvas apps tend to accumulate technical debt faster when requirements change."
+  },
+  {
+    "objectID": "blog/posts/power-bi-rls.html",
+    "href": "blog/posts/power-bi-rls.html",
+    "title": "Row-Level Security in Power BI: A Practical Guide",
+    "section": "",
+    "text": "Row-Level Security (RLS) is one of those features that looks simple until you’re implementing it for a real production deployment. Here’s a practical guide based on what I’ve built at Umojo."
+  },
+  {
+    "objectID": "blog/posts/power-bi-rls.html#the-two-flavors-static-vs.-dynamic",
+    "href": "blog/posts/power-bi-rls.html#the-two-flavors-static-vs.-dynamic",
+    "title": "Row-Level Security in Power BI: A Practical Guide",
+    "section": "The two flavors: Static vs. Dynamic",
+    "text": "The two flavors: Static vs. Dynamic\nStatic RLS means you hardcode filter values into a role. Useful for simple, well-defined groups:\n[Region] = \"North America\"\nThis works great when your user groups are stable and small. When you have 200 tenant-specific views, it breaks down immediately.\nDynamic RLS uses DAX functions to make filtering data-driven, keying off the currently authenticated user:\n[Email] = USERPRINCIPALNAME()\nThis is what most production systems need. One role, infinite tenants."
+  },
+  {
+    "objectID": "blog/posts/power-bi-rls.html#the-security-table-pattern",
+    "href": "blog/posts/power-bi-rls.html#the-security-table-pattern",
+    "title": "Row-Level Security in Power BI: A Practical Guide",
+    "section": "The security table pattern",
+    "text": "The security table pattern\nThe pattern I use most often: a dedicated security table that maps users to their accessible data.\nSecurityTable\n├── UserEmail (text)\n├── RegionID (int)\n└── ClientID (int)\nYour RLS DAX then becomes:\n[ClientID] IN\n  CALCULATETABLE(\n    VALUES(SecurityTable[ClientID]),\n    SecurityTable[UserEmail] = USERPRINCIPALNAME()\n  )\nThis approach decouples access control from your data model, making it easy to add/remove access without touching DAX or Power BI Desktop."
+  },
+  {
+    "objectID": "blog/posts/power-bi-rls.html#embedding-with-rls",
+    "href": "blog/posts/power-bi-rls.html#embedding-with-rls",
+    "title": "Row-Level Security in Power BI: A Practical Guide",
+    "section": "Embedding with RLS",
+    "text": "Embedding with RLS\nWhen embedding reports via the Power BI Embedded API, you set the effective identity at token generation time. This is where multi-tenant dashboards get interesting — you can scope a single embedded report to an arbitrary user identity without that user even having a Power BI license.\nconst embedToken = await powerbiClient.reports.generateToken(\n  workspaceId,\n  reportId,\n  {\n    accessLevel: 'View',\n    identities: [{\n      username: tenantUserEmail,\n      roles: ['TenantRole'],\n      datasets: [datasetId]\n    }]\n  }\n);\nThis is the pattern we use at Umojo to serve curb management data to city clients — one report, RLS-scoped per city."
+  },
+  {
+    "objectID": "blog/posts/power-bi-rls.html#common-pitfalls",
+    "href": "blog/posts/power-bi-rls.html#common-pitfalls",
+    "title": "Row-Level Security in Power BI: A Practical Guide",
+    "section": "Common pitfalls",
+    "text": "Common pitfalls\n1. Testing with your own account: You’ll always see everything unless you explicitly test with “View as role” in Power BI Desktop. Build a test matrix and use it religiously.\n2. Forgetting bidirectional cross-filter: If your security table has a relationship to a bridge table, make sure cross-filter direction is set correctly, or users will see data they shouldn’t.\n3. USERPRINCIPALNAME vs. USERNAME: In cloud, UPN is the email. In on-premises gateway scenarios, USERNAME returns the Windows identity. Know your environment.\n4. Service Principal embedding: When using service principals for embedding, the identities array must include a dataset reference or the token generation will fail silently."
+  },
+  {
+    "objectID": "blog/posts/power-bi-rls.html#validating-rls-in-production",
+    "href": "blog/posts/power-bi-rls.html#validating-rls-in-production",
+    "title": "Row-Level Security in Power BI: A Practical Guide",
+    "section": "Validating RLS in production",
+    "text": "Validating RLS in production\nDon’t trust your staging environment alone. I always build a small validation report that shows each user exactly which rows they’re seeing, and cross-reference against the security table. Surfacing this to the right ops person early catches misconfigured access before clients notice.\n\nQuestions? Find me on LinkedIn or drop me a line."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Let's Connect\n    Get In Touch\n    \n      Open to new opportunities, collaborations, and conversations about data, analytics, and technology.\n    \n  \n\n\n\n\n  Contact Details\n\n  \n\n    \n      📧\n      \n        Email\n        \n          bakdauletkarakulov@gmail.com\n        \n      \n    \n\n    \n      🔗\n      \n        LinkedIn\n        \n          linkedin.com/in/bakdault\n        \n      \n    \n\n    \n      📍\n      \n        Location\n        Greater Boston, MA\n      \n    \n\n    \n      🎓\n      \n        Current Status\n        M.S. Student · Boston University\n      \n    \n\n  \n\n  \n  \n    What I'm Open To\n    \n      \n        ✓ Full-time Roles\n      \n      \n        ✓ Consulting Projects\n      \n      \n        ✓ BI / Analytics Work\n      \n      \n        ✓ Research Collaborations\n      \n      \n        ✓ Speaking / Teaching\n      \n      \n        ✓ Networking\n      \n    \n  \n\n  \n  \n    👋\n    Let's work together\n    \n      The best way to reach me is via email or LinkedIn. I typically respond within 24 hours.\n    \n    \n      Send an Email\n      Connect on LinkedIn"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bakdaulet Karakulov",
+    "section": "",
+    "text": "Available for Opportunities · Greater Boston, MA\n    Hi, I'm Bakdaulet.I build data that drives decisions.\n    \n      Senior Software Developer & Business Intelligence Engineer with 7+ years\n      turning complex data into powerful dashboards, automations, and analytics\n      solutions across energy, logistics, and tech.\n    \n    \n      Power BI\n      Python\n      Microsoft Fabric\n      Azure\n      SQL\n      Power Platform\n      DAX · M\n    \n    \n      View My Work\n      Get In Touch\n    \n  \n\n\n\n\n\n  About Me\n\n  \n    \n      \n        I'm a data-driven developer currently pursuing my \n        M.S. in Applied Business Analytics at Boston University (graduating May 2026),\n        while working full-time as a Senior Software Developer at Umojo in Boston.\n      \n      \n        My work sits at the intersection of engineering and analytics — I design pipelines, \n        build interactive dashboards, and automate workflows that give organizations \n        real-time visibility into what matters. I've shipped solutions for companies ranging from \n        Chevron to Boston-area startups.\n      \n      \n        Originally from Kazakhstan, I've lived and worked across Central Asia, China, and the US —\n        which has given me a global perspective and the ability to communicate across cultures and teams.\n        I speak five languages.\n      \n    \n    \n      \n        Current Role\n        Senior Software Developer\n        Umojo · Boston, MA · July 2022–Present\n        Leading migration to Microsoft Fabric, developing Power BI dashboards and Power Platform workflows for real-time curb management analytics.\n      \n      \n        Education\n        M.S. Applied Business Analytics\n        Boston University · 2025–2026\n        B.Eng. Information Systems\n        Suleyman Demirel University · Kazakhstan\n      \n    \n  \n\n  \n  \n    \n      7+\n      Years Experience\n    \n    \n      5\n      Industries Served\n    \n    \n      5\n      Languages Spoken\n    \n    \n      3\n      Countries Worked In\n    \n  \n\n\n\n\n\n  Technical Skills\n\n  \n\n    \n      📊 BI & Visualization\n      \n        Power BI\n        DAX\n        M Language\n        Tabular Object Models\n        XMLA Endpoints\n        Dashboard Development\n      \n    \n\n    \n      ☁️ Cloud & Data Engineering\n      \n        Microsoft Fabric\n        Azure Data Factory\n        Azure Stream Analytics\n        SSIS\n        Real-Time Pipelines\n      \n    \n\n    \n      🛠️ Power Platform\n      \n        Power Apps\n        Power Automate\n        SharePoint Online\n        Dataverse / CDS\n        Dynamics 365\n      \n    \n\n    \n      💻 Programming\n      \n        Python\n        SQL\n        PowerShell\n        Django\n        NLP\n      \n    \n\n  \n\n  \n  \n    🌐 Languages\n    \n      \n        Kazakh\n        \n        Native\n      \n      \n        Russian\n        \n        Full Professional\n      \n      \n        English\n        \n        Professional\n      \n      \n        Turkish\n        \n        Professional\n      \n      \n        Chinese\n        \n        Elementary"
+  }
+]

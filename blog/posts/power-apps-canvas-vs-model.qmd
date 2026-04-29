@@ -1,0 +1,59 @@
+---
+title: "Power Apps Canvas vs. Model-Driven: When to Use Which"
+date: "2024-06-05"
+categories: [Power Apps]
+description: "A decision framework for choosing between Canvas and Model-Driven Power Apps, based on building both types across multiple enterprise projects."
+format:
+  html:
+    toc: true
+---
+
+Every time I start a new Power Apps project, someone asks: "Canvas or Model-Driven?" The answer is almost never obvious from the requirement document alone. Here's the framework I use.
+
+## The core difference
+
+**Canvas apps** give you pixel-perfect control over the UI. You design screens from scratch, place components where you want, and connect to virtually any datasource (SharePoint, SQL, Dataverse, REST APIs, Excel...). Think of it like building a webpage.
+
+**Model-Driven apps** are generated from your data model in Dataverse. You define entities, relationships, and forms — the UI is mostly auto-generated. Less visual flexibility, but more structured and faster to build for standard CRUD workflows.
+
+## When Canvas wins
+
+Use Canvas when:
+
+- **The UX is non-standard.** Custom layouts, branded interfaces, unusual navigation — Canvas is the only option.
+- **Your datasource isn't Dataverse.** SharePoint lists, SQL Server, REST APIs — Canvas handles them natively. Model-Driven requires Dataverse.
+- **It's a task-specific tool.** A mobile form for field inspections, a kiosk interface, a focused data entry screen — Canvas excels here.
+- **The user base is small.** Canvas apps require per-user licensing; for small teams this is manageable.
+
+**Example:** At Raimbek Group, I built a Canvas app for field sales reps to enter daily visit logs on mobile. Custom map integration, offline-capable, branded UI. Model-Driven would have been the wrong choice.
+
+## When Model-Driven wins
+
+Use Model-Driven when:
+
+- **You have complex relational data.** Entities with many relationships, lookups, and business rules — Dataverse and Model-Driven handle this elegantly.
+- **You need built-in features.** Business Process Flows, role-based security, audit trails, and dashboards come for free. Building these in Canvas is expensive.
+- **Power Automate workflows are central.** Dataverse + Power Automate integration is seamless. Trigger flows on record creation/update without custom connectors.
+- **Multiple apps share the same data.** Dataverse is a shared layer. Multiple Model-Driven (and Canvas) apps can work on the same data without duplication.
+
+**Example:** At Chevron (TCO), we built a Model-Driven app for QA/QC project tracking — multiple entities (Projects, Inspections, Non-Conformances), complex relationships, approval workflows via Power Automate. Canvas would have taken 3x longer.
+
+## The hybrid approach
+
+For projects where neither is a clean fit, combine both: use Model-Driven as the backbone (Dataverse, security, workflows) and embed Canvas apps as custom pages inside the Model-Driven experience.
+
+This is the pattern Microsoft is pushing with **Custom Pages** — Canvas-designed screens that live within a Model-Driven app. It's the best of both worlds, at the cost of additional complexity.
+
+## Quick decision table
+
+| Requirement | Canvas | Model-Driven |
+|---|---|---|
+| Custom branding/layout | ✅ | ❌ |
+| Non-Dataverse data | ✅ | ❌ |
+| Complex entity relationships | ❌ | ✅ |
+| Business Process Flows | ❌ | ✅ |
+| Audit trails (built-in) | ❌ | ✅ |
+| Mobile-optimized | ✅ | Limited |
+| Fast CRUD UI | ❌ | ✅ |
+
+When in doubt, ask: *who will maintain this in 2 years?* Model-Driven apps are easier to maintain as organizational data models evolve. Canvas apps tend to accumulate technical debt faster when requirements change.

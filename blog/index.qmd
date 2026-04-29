@@ -1,0 +1,147 @@
+---
+title: "Blog"
+format:
+  html:
+    page-layout: full
+---
+
+```{=html}
+<div class="blog-page">
+
+  <div class="blog-header">
+    <h1 class="blog-title">Writing</h1>
+    <p class="blog-desc">Notes on data engineering, Power BI, Python, and analytics from the field.</p>
+    <div class="blog-search-wrap">
+      <span class="search-icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <input
+        type="text"
+        id="blog-search"
+        class="blog-search"
+        placeholder="Search posts..."
+        autocomplete="off"
+      />
+    </div>
+  </div>
+
+  <div id="no-results" class="no-results" style="display:none;">
+    No posts match your search.
+  </div>
+
+  <!-- 2026 -->
+  <div class="year-block" data-year="2026">
+    <div class="year-heading">
+      <h2 class="year-label">2026</h2>
+      <span class="year-count">2 posts</span>
+    </div>
+    <ul class="post-list">
+      <li class="post-row" data-title="Why I'm Betting on Microsoft Fabric for 2026">
+        <a href="posts/microsoft-fabric-2026.html" class="post-link">
+          <time class="post-date">March 12</time>
+          <span class="post-title-text">Why I'm Betting on Microsoft Fabric for 2026</span>
+          <span class="post-tags"><span class="tag">Fabric</span><span class="tag">Power BI</span></span>
+        </a>
+      </li>
+      <li class="post-row" data-title="5 DAX Patterns That Changed How I Build Reports">
+        <a href="posts/dax-patterns.html" class="post-link">
+          <time class="post-date">January 20</time>
+          <span class="post-title-text">5 DAX Patterns That Changed How I Build Reports</span>
+          <span class="post-tags"><span class="tag">DAX</span><span class="tag">Power BI</span></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 2025 -->
+  <div class="year-block" data-year="2025">
+    <div class="year-heading">
+      <h2 class="year-label">2025</h2>
+      <span class="year-count">3 posts</span>
+    </div>
+    <ul class="post-list">
+      <li class="post-row" data-title="Row-Level Security in Power BI: A Practical Guide">
+        <a href="posts/power-bi-rls.html" class="post-link">
+          <time class="post-date">November 8</time>
+          <span class="post-title-text">Row-Level Security in Power BI: A Practical Guide</span>
+          <span class="post-tags"><span class="tag">Power BI</span><span class="tag">Security</span></span>
+        </a>
+      </li>
+      <li class="post-row" data-title="Real-Time Analytics with Azure Stream Analytics">
+        <a href="posts/azure-stream-analytics.html" class="post-link">
+          <time class="post-date">August 3</time>
+          <span class="post-title-text">Real-Time Analytics with Azure Stream Analytics</span>
+          <span class="post-tags"><span class="tag">Azure</span><span class="tag">Streaming</span></span>
+        </a>
+      </li>
+      <li class="post-row" data-title="Migrating from Power BI Premium to Microsoft Fabric">
+        <a href="posts/fabric-migration.html" class="post-link">
+          <time class="post-date">February 14</time>
+          <span class="post-title-text">Migrating from Power BI Premium to Microsoft Fabric</span>
+          <span class="post-tags"><span class="tag">Fabric</span><span class="tag">Migration</span></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 2024 -->
+  <div class="year-block" data-year="2024">
+    <div class="year-heading">
+      <h2 class="year-label">2024</h2>
+      <span class="year-count">3 posts</span>
+    </div>
+    <ul class="post-list">
+      <li class="post-row" data-title="Python Data Wrangling for BI Developers">
+        <a href="posts/python-wrangling.html" class="post-link">
+          <time class="post-date">October 22</time>
+          <span class="post-title-text">Python Data Wrangling for BI Developers</span>
+          <span class="post-tags"><span class="tag">Python</span><span class="tag">Data</span></span>
+        </a>
+      </li>
+      <li class="post-row" data-title="Power Apps Canvas vs. Model-Driven: When to Use Which">
+        <a href="posts/power-apps-canvas-vs-model.html" class="post-link">
+          <time class="post-date">June 5</time>
+          <span class="post-title-text">Power Apps Canvas vs. Model-Driven: When to Use Which</span>
+          <span class="post-tags"><span class="tag">Power Apps</span></span>
+        </a>
+      </li>
+      <li class="post-row" data-title="Optimizing Power BI Report Load Times">
+        <a href="posts/power-bi-performance.html" class="post-link">
+          <time class="post-date">March 19</time>
+          <span class="post-title-text">Optimizing Power BI Report Load Times</span>
+          <span class="post-tags"><span class="tag">Power BI</span><span class="tag">Performance</span></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+  const searchInput = document.getElementById('blog-search');
+  const noResults = document.getElementById('no-results');
+
+  searchInput.addEventListener('input', function () {
+    const query = this.value.toLowerCase().trim();
+    let anyVisible = false;
+
+    document.querySelectorAll('.year-block').forEach(block => {
+      let blockVisible = false;
+      block.querySelectorAll('.post-row').forEach(row => {
+        const title = row.dataset.title.toLowerCase();
+        const tags = Array.from(row.querySelectorAll('.tag')).map(t => t.textContent.toLowerCase()).join(' ');
+        const match = !query || title.includes(query) || tags.includes(query);
+        row.style.display = match ? '' : 'none';
+        if (match) blockVisible = true;
+      });
+      block.style.display = blockVisible ? '' : 'none';
+      if (blockVisible) anyVisible = true;
+    });
+
+    noResults.style.display = anyVisible ? 'none' : 'block';
+  });
+</script>
+```

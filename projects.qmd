@@ -1,0 +1,186 @@
+---
+title: "Projects"
+format:
+  html:
+    page-layout: full
+---
+
+```{=html}
+<div style="background:linear-gradient(135deg,#0f172a 0%,#162032 100%); padding:3.5rem 2rem 3rem;">
+  <div style="max-width:900px; margin:0 auto;">
+    <div class="hero-eyebrow" style="margin-bottom:1rem;">Portfolio</div>
+    <h1 style="font-family:'Syne',sans-serif; font-size:clamp(1.8rem,4vw,2.8rem); font-weight:800; color:#f1f5f9; margin:0 0 .75rem; letter-spacing:-.03em;">Featured Projects</h1>
+    <p style="color:#94a3b8; font-size:1.05rem; margin:0; max-width:560px;">
+      A selection of professional and academic work across data engineering, 
+      business intelligence, and automation.
+    </p>
+  </div>
+</div>
+
+<div class="section">
+
+  <!-- Featured Project -->
+  <h2 class="section-title">Highlighted Work</h2>
+
+  <div style="background:var(--white); border:1.5px solid var(--border); border-radius:var(--radius); padding:2.25rem; margin-bottom:2rem; box-shadow:var(--shadow);">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; flex-wrap:wrap; margin-bottom:1rem;">
+      <div>
+        <div style="font-family:'DM Mono',monospace; font-size:.75rem; color:#0ea5e9; letter-spacing:.06em; text-transform:uppercase; margin-bottom:.3rem;">Featured · Production</div>
+        <h3 style="font-family:'Syne',sans-serif; font-size:1.35rem; font-weight:800; color:#0f172a; margin:0;">Curb Management Analytics Platform</h3>
+      </div>
+      <span style="background:rgba(14,165,233,.1); border:1.5px solid rgba(14,165,233,.25); color:#0284c7; font-family:'DM Mono',monospace; font-size:.75rem; border-radius:6px; padding:.3rem .8rem; white-space:nowrap;">Umojo · 2022–Present</span>
+    </div>
+    <p style="color:#475569; line-height:1.7; margin-bottom:1.25rem;">
+      End-to-end analytics solution for real-time curb management reporting in urban environments. 
+      Built comprehensive metrics for Occupancy, Availability, Compliance, and Turnover rates, 
+      delivering live insights to city planners and operations teams. Integrated Azure Stream Analytics 
+      for continuous data ingestion and embedded Power BI reports with Row-Level Security (RLS) 
+      for controlled multi-tenant data access.
+    </p>
+    <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(200px,1fr)); gap:1rem; margin-bottom:1.25rem;">
+      <div style="background:#f8fafc; border:1.5px solid #e2e8f0; border-radius:8px; padding:1rem;">
+        <div style="font-family:'Syne',sans-serif; font-size:1.6rem; font-weight:800; color:#0ea5e9;">4</div>
+        <div style="font-size:.8rem; color:#64748b;">Core KPI Metrics</div>
+      </div>
+      <div style="background:#f8fafc; border:1.5px solid #e2e8f0; border-radius:8px; padding:1rem;">
+        <div style="font-family:'Syne',sans-serif; font-size:1.6rem; font-weight:800; color:#0ea5e9;">Real-time</div>
+        <div style="font-size:.8rem; color:#64748b;">Data Processing</div>
+      </div>
+      <div style="background:#f8fafc; border:1.5px solid #e2e8f0; border-radius:8px; padding:1rem;">
+        <div style="font-family:'Syne',sans-serif; font-size:1.6rem; font-weight:800; color:#0ea5e9;">RLS</div>
+        <div style="font-size:.8rem; color:#64748b;">Multi-tenant Security</div>
+      </div>
+    </div>
+    <div class="project-tags">
+      <span class="project-tag">Power BI</span>
+      <span class="project-tag">Azure Stream Analytics</span>
+      <span class="project-tag">DAX</span>
+      <span class="project-tag">Row-Level Security</span>
+      <span class="project-tag">Microsoft Fabric</span>
+      <span class="project-tag">Python</span>
+    </div>
+  </div>
+
+  <!-- Project Grid -->
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-icon">🏗️</div>
+      <div>
+        <div style="font-family:'DM Mono',monospace; font-size:.73rem; color:#64748b; margin-bottom:.2rem;">Umojo · 2023</div>
+        <p class="project-title">Microsoft Fabric Migration</p>
+      </div>
+      <p class="project-desc">
+        Led the full migration of existing Power BI infrastructure to Microsoft Fabric, 
+        optimizing report performance and capacity utilization. Redesigned data models 
+        and implemented Lakehouses for improved data governance and cost efficiency.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Microsoft Fabric</span>
+        <span class="project-tag">Power BI</span>
+        <span class="project-tag">Lakehouse</span>
+        <span class="project-tag">DAX</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">⚙️</div>
+      <div>
+        <div style="font-family:'DM Mono',monospace; font-size:.73rem; color:#64748b; margin-bottom:.2rem;">Chevron (TCO) · 2021–2022</div>
+        <p class="project-title">QA/QC Data Pipeline & Reporting</p>
+      </div>
+      <p class="project-desc">
+        Managed digitalization of quality assurance workflows for the 3GP Quality team at 
+        Tengizchevroil. Built end-to-end ETL pipelines using Azure Data Factory and SSIS, 
+        producing standardized analytical dashboards for partner project teams.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Azure Data Factory</span>
+        <span class="project-tag">SSIS</span>
+        <span class="project-tag">Power BI</span>
+        <span class="project-tag">Power Apps</span>
+        <span class="project-tag">SQL</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">📱</div>
+      <div>
+        <div style="font-family:'DM Mono',monospace; font-size:.73rem; color:#64748b; margin-bottom:.2rem;">Chevron (TCO) · 2019–2021</div>
+        <p class="project-title">Enterprise Power Platform Suite</p>
+      </div>
+      <p class="project-desc">
+        Developed a suite of canvas and model-driven Power Apps integrated with Dataverse, 
+        SharePoint, and SQL Server. Automated business workflows with Power Automate, 
+        replacing manual processes across multiple operational departments.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Power Apps</span>
+        <span class="project-tag">Power Automate</span>
+        <span class="project-tag">Dataverse</span>
+        <span class="project-tag">SharePoint</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">🤖</div>
+      <div>
+        <div style="font-family:'DM Mono',monospace; font-size:.73rem; color:#64748b; margin-bottom:.2rem;">Raimbek Group · 2017–2019</div>
+        <p class="project-title">FMCG NLP Analytics Engine</p>
+      </div>
+      <p class="project-desc">
+        Applied Python NLP libraries to analyze large-volume consumer and market datasets 
+        for Kazakhstan's leading FMCG company. Produced trending analysis reports and 
+        KPI scorecards supporting executive decision-making across 50+ SKUs.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">NLP</span>
+        <span class="project-tag">Power BI</span>
+        <span class="project-tag">SQL</span>
+        <span class="project-tag">DAX</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">📈</div>
+      <div>
+        <div style="font-family:'DM Mono',monospace; font-size:.73rem; color:#64748b; margin-bottom:.2rem;">EPAM / Analytic.li · 2021</div>
+        <p class="project-title">Dashboard Performance Optimization</p>
+      </div>
+      <p class="project-desc">
+        Served as Power BI developer on a client analytics platform, conducting deep 
+        DAX formula performance analysis and investigating Tabular Object Models (TOM) 
+        and XMLA endpoints to significantly reduce report load times.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Power BI</span>
+        <span class="project-tag">TOM</span>
+        <span class="project-tag">XMLA</span>
+        <span class="project-tag">DAX</span>
+        <span class="project-tag">Performance Tuning</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">🎓</div>
+      <div>
+        <div style="font-family:'DM Mono',monospace; font-size:.73rem; color:#64748b; margin-bottom:.2rem;">Boston University · 2025–2026</div>
+        <p class="project-title">Graduate Analytics Projects</p>
+      </div>
+      <p class="project-desc">
+        Applied business analytics projects as part of the BU M.S. program, including 
+        web analytics, predictive modeling, and data-driven decision frameworks. 
+        Projects cover topics in machine learning, statistics, and business strategy.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">Machine Learning</span>
+        <span class="project-tag">Web Analytics</span>
+        <span class="project-tag">Statistics</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+```
