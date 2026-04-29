@@ -1,8 +1,11 @@
 project:
   render:
     - "*.qmd"
+<<<<<<< HEAD
     - "blog/*.qmd"
     - "blog/posts/*.qmd"
+=======
+>>>>>>> f6bc949e16c769a6503c3e7171a5f0576e0e4760
   type: website
   output-dir: docs
 
@@ -19,8 +22,11 @@ website:
     left:
       - text: "About"
         href: index.qmd
+<<<<<<< HEAD
       - text: "Blog"
         href: blog/index.qmd
+=======
+>>>>>>> f6bc949e16c769a6503c3e7171a5f0576e0e4760
       - text: "Projects"
         href: projects.qmd
       - text: "CV"
@@ -42,8 +48,12 @@ website:
 
 format:
   html:
+<<<<<<< HEAD
     theme: flatly
     css: styles.css
+=======
+    theme: [flatly, styles.css]
+>>>>>>> f6bc949e16c769a6503c3e7171a5f0576e0e4760
     toc: false
     smooth-scroll: true
     link-external-newwindow: true

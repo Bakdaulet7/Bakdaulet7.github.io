@@ -715,6 +715,7 @@ main.content {
 .page-columns.page-full {
   padding: 0;
 }
+<<<<<<< HEAD
 
 /* ============================================================
    BLOG STYLES — Tania Rascia-inspired minimal listing
@@ -911,3 +912,5 @@ main.content {
 .blog-post .quarto-title-block {
   display: block;
 }
+=======
+>>>>>>> f6bc949e16c769a6503c3e7171a5f0576e0e4760
